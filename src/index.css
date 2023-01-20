@@ -1,9 +1,30 @@
+
+@font-face {
+	font-family: 'Nunito-Regular';
+	src: url('/fontes/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Nunito-Light';
+	src: url('/fontes/Nunito-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Nunito-Bold';
+	src: url('/fontes/Nunito-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Nunito-Italic';
+	src: url('/fontes/Nunito-Italic.ttf') format('truetype');
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
 	outline: none;
+	font-family: "Nunito-Regular";
 }
 
 a {
