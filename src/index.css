@@ -33,6 +33,10 @@
 	font-family: 'Nunito-Regular', sans-serif;
 }
 
+body {
+	font-size: 62.5%;
+}
+
 a {
 	text-decoration: none;
 }
