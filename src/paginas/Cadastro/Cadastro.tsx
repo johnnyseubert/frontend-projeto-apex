@@ -1,4 +1,3 @@
-import React from 'react';
 import './Cadastro.css';
 
 export const PaginaCadastro = () => {
