@@ -2,4 +2,42 @@
 	height: 100vh;
 	width: 100%;
 	background-color: var(--primaria);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pagina_login .container_login {
+	height: 30rem;
+	width: 40rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.pagina_login .imagem_login img {
+	height: 30rem;
+	width: 20rem;
+	border-top-right-radius: 0.4rem;
+	border-bottom-right-radius: 0.4rem;
+}
+
+.pagina_login .formulario_login {
+	height: 30rem;
+	width: 20rem;
+}
+
+.pagina_login .formulario_login .formulario_topo {
+	background-color: var(--secundaria);
+	height: 4rem;
+	border-top-left-radius: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0rem 1rem;
+}
+
+.pagina_login .formulario_login .formulario_corpo {
+	background-color: var(--fundo);
+	height: 26rem;
+	border-bottom-left-radius: 0.4rem;
 }
