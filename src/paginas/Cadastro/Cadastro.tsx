@@ -32,9 +32,7 @@ export const PaginaCadastro = () => {
 							<span>Digite sua data de nascimento</span>
 							<input type="date" className="input"></input>
 						</div>
-						<a href="#" className="btn">
-							Cadastrar
-						</a>
+						<button className="btn">Cadastrar</button>
 					</div>
 				</div>
 			</div>
